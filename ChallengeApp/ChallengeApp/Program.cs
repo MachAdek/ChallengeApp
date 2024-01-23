@@ -1,2 +1,16 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿string name = "Adrian";
+char sex = 'm';
+int age = 31;
+
+if (sex == 'k' && age < 30)
+{
+    Console.WriteLine("Kobieta ponizej 30 lat");
+}
+else if (name == "Ewa" && age == 30)
+{
+    Console.WriteLine("Ewa, lat 30");
+}
+else if (sex == 'm' && age < 18)
+{
+    Console.WriteLine("Niepełnoletni mezczyzna");
+}
